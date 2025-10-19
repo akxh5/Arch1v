@@ -20,17 +20,19 @@ Features
 Installation
 1.	Clone the repo:
 
-git clone https://github.com/yourusername/arch1v.git
+git clone https://github.com/akxh5/arch1v.git
 
-2.	Install dependencies (if any):
+2.	Make sure you have Java 17+ installed.
 
 # Example
-pip install -r requirements.txt
+cd arch1v
+javac -d bin src/*.java
 
 Usage
 
 # Example command to run Arch1v
-python arch1v.py
+# Run Arch1v
+java -cp bin Main
 
 Contributing
 
